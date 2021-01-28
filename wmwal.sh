@@ -16,12 +16,12 @@
 . "$HOME/.cache/wal/colors.sh"
 
 echo "{
-  WindowTitleFont = \"Ubuntu:bold:pixelsize=12\";
-  MenuTitleFont = \"Ubuntu:bold:pixelsize=12\";
-  MenuTextFont = \"Ubuntu:pixelsize=12\";
-  IconTitleFont = \"Ubuntu:pixelsize=9\";
-  ClipTitleFont = \"Ubuntu:bold:pixelsize=12\";
-  LargeDisplayFont = \"Ubuntu:pixelsize=24\";
+  WindowTitleFont = \"mononoki Nerd Font:bold:pixelsize=12\";
+  MenuTitleFont = \"mononoki Nerd Font:bold:pixelsize=12\";
+  MenuTextFont = \"mononoki Nerd Font:pixelsize=12\";
+  IconTitleFont = \"mononoki Nerd Font:pixelsize=9\";
+  ClipTitleFont = \"mononoki Nerd Font:bold:pixelsize=12\";
+  LargeDisplayFont = \"mononoki Nerd Font:pixelsize=24\";
   TitleJustify = left;
   HighlightColor = \"${color0}\";
   HighlightTextColor = \"${color10}\";
@@ -30,16 +30,16 @@ echo "{
   FTitleColor = \"${color0}\";
   PTitleColor = \"${color7}\";
   UTitleColor = \"${color7}\";
-  FTitleBack = (solid, \"${color5}\");
-  PTitleBack = (solid, \"${color2}\");
-  UTitleBack = (solid, \"${color2}\");
-  ResizebarBack = (solid, \"${color2}\");
+  FTitleBack = (solid, \"${color4}\");
+  PTitleBack = (solid, \"${color5}\");
+  UTitleBack = (solid, \"${color5}\");
+  ResizebarBack = (solid, \"${color5}\");
   MenuTitleColor = \"${color0}\";
   MenuTextColor = \"${color0}\";
   MenuDisabledColor = gray40;
-  MenuTitleBack = (solid, \"${color5}\");
-  MenuTextBack = (solid, \"${color10}\");
-  IconBack = (solid, \"${color10}\");
+  MenuTitleBack = (solid, \"${color4}\");
+  MenuTextBack = (solid, \"${color5}\");
+  IconBack = (solid, \"${color4}\");
   IconTitleColor = \"${color10}\";
   IconTitleBack = \"${color0}\";
   MenuStyle = flat;
@@ -47,4 +47,3 @@ echo "{
 ">$HOME/GNUstep/Library/WindowMaker/Styles/Wal.style 
 
 setstyle $HOME/GNUstep/Library/WindowMaker/Styles/Wal.style
-
