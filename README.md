@@ -1,6 +1,9 @@
 # wmaker_dotfiles
 Configurationsfiles for WindowMaker
 
+
+![screenshot](https://raw.githubusercontent.com/Algorithm79/wmaker_dotfiles/master/wmaker2.png)
+
 - [Alacritty](https://github.com/alacritty/alacritty) (Terminal)
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) (mononoki Nerd Font)
 - [Betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)
