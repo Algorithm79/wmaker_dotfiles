@@ -3,7 +3,7 @@
 if [[ -n $@ ]]; then
 	case $1 in
 		'Logout')
-			i3-msg exit;;
+			EXIT;;
 		'Suspend')
 			systemctl suspend;;
 		'Reboot')
