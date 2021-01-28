@@ -1,0 +1,17 @@
+{
+  firefox.Firefox = {
+    Icon = firefox.Firefox.xpm;
+  };
+  thunderbird.Thunderbird = {
+    Icon = thunderbird.Thunderbird.xpm;
+  };
+  thunar.Thunar = {
+    Icon = thunar.Thunar.xpm;
+  };
+  "gimp-2.10.Gimp-2.10" = {
+    Icon = "gimp-2.10.Gimp-2.10.xpm";
+  };
+  groupLeader.WPrefs = {
+    Icon = groupLeader.WPrefs.xpm;
+  };
+}

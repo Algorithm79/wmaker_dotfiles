@@ -1,0 +1,65 @@
+{
+  FTitleColor = "#050815";
+  FrameBorderColor = "#b0b0ad";
+  MenuDisabledColor = gray40;
+  IconTitleBack = "#050815";
+  PixmapPath = (
+    "/home/magnus/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/magnus/GNUstep/Library/WindowMaker/Backgrounds",
+    "/home/magnus/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "~/pixmaps",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/WindowMaker/Backgrounds",
+    "/usr/share/pixmaps"
+  );
+  FTitleBack = (solid, "#656666");
+  ToggleKbdModeKey = None;
+  ClipTitleFont = "mononoki Nerd Font:bold:pixelsize=12";
+  IconTitleFont = "mononoki Nerd Font:pixelsize=9";
+  OpaqueResize = YES;
+  MenuTextBack = (solid, "#8B3F3C");
+  LargeDisplayFont = "mononoki Nerd Font:pixelsize=24";
+  MoveDisplay = none;
+  TitleJustify = left;
+  IconTitleColor = "#385962";
+  MenuTextColor = "#050815";
+  SingleClickLaunch = YES;
+  IconBack = (solid, "#656666");
+  MenuTitleColor = "#050815";
+  AntialiasedText = YES;
+  MenuTitleFont = "mononoki Nerd Font:bold:pixelsize=12";
+  SmoothWorkspaceBack = YES;
+  MoveTo6to12Head = None;
+  MenuTextFont = "mononoki Nerd Font:pixelsize=12";
+  WorkspaceBack = (tpixmap, BlueImage.jpeg, black);
+  HighlightTextColor = "#385962";
+  MenuTitleBack = (solid, "#656666");
+  DisableMiniwindows = YES;
+  EnforceIconMargin = YES;
+  AutoArrangeIcons = YES;
+  ClipTitleColor = "#050815";
+  MoveTo12to6Head = None;
+  HighlightColor = "#050815";
+  FrameFocusedBorderColor = "#b0b0ad";
+  WindowTitleFont = "mononoki Nerd Font:bold:pixelsize=12";
+  CClipTitleColor = gray20;
+  ResizebarBack = (solid, "#8B3F3C");
+  MenuStyle = flat;
+  IconPath = (
+    "/home/magnus/GNUstep/Library/Icons",
+    "/home/magnus/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/magnus/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "~/pixmaps",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/home/magnus/.icons/Qogir/symbolic/apps"
+  );
+  KbdModeLock = NO;
+  PTitleBack = (solid, "#8B3F3C");
+  UTitleColor = "#bcb7b2";
+  UTitleBack = (solid, "#8B3F3C");
+  PTitleColor = "#bcb7b2";
+  ResizeDisplay = none;
+  IgnoreGtkHints = YES;
+  FrameSelectedBorderColor = "#f9f9f9";
+}

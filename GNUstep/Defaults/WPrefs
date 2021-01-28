@@ -1,0 +1,30 @@
+{
+  TextureList = ();
+  NoXSetStuff = NO;
+  ColorList = (
+    "#000000",
+    "#292929",
+    "#525252",
+    "#808080",
+    "#a1a1a1",
+    "#cacaca",
+    "#fafafa",
+    "#caca80",
+    "#ca9d7b",
+    "#80ca80",
+    "#80cac2",
+    "#ca8080",
+    "#8095ca",
+    "#b180ca",
+    "#ca80b1",
+    "#ca4a4a",
+    "#4a5aca",
+    "#4acac2",
+    "#4aca5a",
+    "#c2ca4a",
+    "#ca804a",
+    "#80ca31",
+    "#c229ba",
+    "#c22973"
+  );
+}

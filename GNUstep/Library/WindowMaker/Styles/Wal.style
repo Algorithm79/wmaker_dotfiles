@@ -1,0 +1,30 @@
+{
+  WindowTitleFont = "mononoki Nerd Font:bold:pixelsize=12";
+  MenuTitleFont = "mononoki Nerd Font:bold:pixelsize=12";
+  MenuTextFont = "mononoki Nerd Font:pixelsize=12";
+  IconTitleFont = "mononoki Nerd Font:pixelsize=9";
+  ClipTitleFont = "mononoki Nerd Font:bold:pixelsize=12";
+  LargeDisplayFont = "mononoki Nerd Font:pixelsize=24";
+  TitleJustify = left;
+  HighlightColor = "#050815";
+  HighlightTextColor = "#385962";
+  ClipTitleColor = "#050815";
+  CClipTitleColor = gray20;
+  FTitleColor = "#050815";
+  PTitleColor = "#bcb7b2";
+  UTitleColor = "#bcb7b2";
+  FTitleBack = (solid, "#656666");
+  PTitleBack = (solid, "#8B3F3C");
+  UTitleBack = (solid, "#8B3F3C");
+  ResizebarBack = (solid, "#8B3F3C");
+  MenuTitleColor = "#050815";
+  MenuTextColor = "#050815";
+  MenuDisabledColor = gray40;
+  MenuTitleBack = (solid, "#656666");
+  MenuTextBack = (solid, "#8B3F3C");
+  IconBack = (solid, "#656666");
+  IconTitleColor = "#385962";
+  IconTitleBack = "#050815";
+  MenuStyle = flat;
+}
+
