@@ -1,0 +1,97 @@
+configuration {
+  display-drun: " ";
+  display-window: "Windows:";
+
+  show-icons: true;
+  drun-display-format: "{icon} {name}";
+}
+
+* {
+  font: "CaskaydiaCove Nerd Font 12";
+  icon-font: "CaskaydiaCove Nerd Font Medium 18";
+
+  background-color: #1a1b26EE;
+  foreground-color: #a9b1d6;
+  window-bordercolor: #1a1b26EE;
+  color: @foreground;
+  separator-color: @window-bordercolor;
+  foreground: transparent;
+}
+
+window {
+  background-color: @background-color;
+  transparency: "real";
+  height: 37%;
+  width: 30%;
+  border-color: @window-bordercolor;
+  border: 0 ;
+  border-radius: 0px;
+}
+
+mainbox {
+  background-color: transparent;
+  padding: 30px 30px 30px 30px;
+}
+
+inputbar {
+  background-color: transparent;
+  padding: 5px 10px 25px 10px;
+}
+
+prompt {
+  background-color: transparent;
+  text-color: #FFFFFF;
+  padding: 0px 10px 0px 0px;
+}
+
+entry {
+  background-color: transparent;
+  text-color: #FFFFFF;
+}
+
+listview {
+  background-color: transparent;
+  padding: 0px 5px 0px 5px;
+  spacing: 0.2em;
+  columns: 2;
+  scrollbar: false;
+}
+
+element {
+  background-color: transparent;
+  padding: 5px 2px 5px 2px;
+}
+
+element.normal.normal {
+    background-color: transparent;
+    text-color: @foreground-color;
+}
+element.selected.normal {
+    border-radius: 7px;
+    background-color: #7aa2f7;
+    color: @background-color;
+}
+element.alternate.normal {
+    background-color: transparent;
+    text-color: @foreground-color;
+}
+
+element selected {
+  background-color: #7aa2f7;
+  color: @background-color;
+}
+
+element-icon {
+  size: 35px;
+  border: 0px;
+}
+
+element-text {
+  expand: true;
+  vertical-align: 0.5;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+}
+
