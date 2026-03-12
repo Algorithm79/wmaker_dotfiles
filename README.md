@@ -2,7 +2,7 @@
 Configurationsfiles for WindowMaker
 
 
-![screenshot](https://raw.githubusercontent.com/Algorithm79/wmaker_dotfiles/master/wmaker2.png)
+![screenshot](https://raw.githubusercontent.com/Algorithm79/wmaker_dotfiles/master/wmaker.png)
 
 - [Kitty](https://github.com/kovidgoyal/kitty) (Terminal)
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) (mononoki Nerd Font)
