@@ -1,0 +1,4 @@
+{
+  BoldSystemFont = "CaskaydiaCove Nerd Font Mono:slant=0:weight=200:width=100:pixelsize=12";
+  SystemFont = "CaskaydiaCove Nerd Font Mono:slant=0:weight=40:width=100:pixelsize=12";
+}

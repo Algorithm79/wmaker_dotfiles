@@ -1,0 +1,23 @@
+{
+  pcmanfm.Pcmanfm = {
+    Icon = pcmanfm.Pcmanfm.xpm;
+  };
+  firefox.Firefox = {
+    Icon = firefox.Firefox.xpm;
+  };
+  kgx.kgx = {
+    Icon = terminal.svg;
+  };
+  default.default = {
+    Icon = default.default.xpm;
+  };
+  "xfce4-taskmanager.Xfce4-taskmanager" = {
+    Icon = "xfce4-taskmanager.Xfce4-taskmanager.xpm";
+  };
+  "gcr-prompter.Gcr-prompter" = {
+    Icon = "spotify-client.svg";
+  };
+  groupLeader.WPrefs = {
+    Icon = groupLeader.WPrefs.xpm;
+  };
+}

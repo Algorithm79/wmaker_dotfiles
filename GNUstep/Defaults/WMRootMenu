@@ -1,0 +1,59 @@
+(
+  "Arch Linux",
+  (
+    Applications,
+    OPEN_PLMENU,
+    "|| wmmenugen -parser:xdg /usr/share/applications/"
+  ),
+  (Run..., EXEC, "%A(Run,Type command to run)"),
+  (
+    "Window Maker",
+    ("Info Panel ...", INFO_PANEL),
+    ("Legal Panel ...", LEGAL_PANEL),
+    (Preferences, EXEC, WPrefs),
+    ("Refresh screen", REFRESH),
+    (Restart, RESTART)
+  ),
+  (
+    WorkSpace,
+    (Appearance, OPEN_MENU, appearance.menu),
+    ("Arrange Icons", ARRANGE_ICONS),
+    ("Clear Session", CLEAR_SESSION),
+    ("Hide Others", HIDE_OTHERS),
+    ("Save Session", SAVE_SESSION),
+    ("Show All", SHOW_ALL),
+    (Workspaces, WORKSPACE_MENU)
+  ),
+  (
+    Shortcuts,
+    (
+      "Volume Up",
+      SHORTCUT,
+      XF86AudioRaiseVolume,
+      EXEC,
+      "volumecontrol.sh i"
+    ),
+    (
+      "Volume Down",
+      SHORTCUT,
+      XF86AudioLowerVolume,
+      EXEC,
+      "volumecontrol.sh d"
+    ),
+    (Mute, SHORTCUT, XF86AudioMute, EXEC, "volumecontrol.sh m"),
+    (Rofi, SHORTCUT, "Mod4+z", EXEC, "rofi -show drun"),
+    ("Window Switch", SHORTCUT, "Mod4+Tab", EXEC, "rofi -show window"),
+    (
+      "Lock Screen",
+      SHORTCUT,
+      "Mod4+Delete",
+      EXEC,
+      "betterlockscreen -l blur"
+    ),
+    (Screenshot, SHORTCUT, "Mod4+Print", EXEC, scrot),
+    (Terminal, SHORTCUT, "Mod4+Return", EXEC, kitty)
+  ),
+  (Suspend, EXEC, "systemctl suspend"),
+  (Exit, EXIT),
+  ("Exit session", SHUTDOWN)
+)
