@@ -1,0 +1,90 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "kitty",
+        "source": "~/.config/fastfetch/wmaker.png",
+        "width": 32,
+        "padding": {
+            "top": 0,
+            "left": 2
+        }
+    },
+    "display": {
+        "separator": "",
+        "key": {
+            "width": 15
+             }
+    },
+    "modules": [
+        {
+            "format": " ",
+            "type": "custom"
+        },
+        {
+            "format": "\u001b[11D\u001b[34m           ╭───────────╮",
+            "type": "custom"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[32m󰇅 host",
+            "type": "host", 
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[33m󰅐 uptime",
+            "type": "uptime"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[34m󰟾 distro",
+            "type": "os"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[35m kernel",
+            "type": "kernel"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[36m󰇄 desktop",
+            "type": "wm"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[31m term",
+            "type": "terminal"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[32m shell",
+            "type": "shell"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[33m󰍛 cpu",
+            "type": "cpu"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[33m gpu",
+            "type": "gpu"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[34m󰉉 disk",
+            "type": "disk",
+            "folders": "/"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[35m memory",
+            "type": "memory"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[36m packages",
+            "type": "packages"
+        },
+        {
+            "format": "\u001b[11D\u001b[34m           ├───────────┤",
+            "type": "custom"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[m  color",
+            "type": "colors",
+            "symbol": "circle"
+        },
+        {
+            "format": "\u001b[11D\u001b[34m           ╰───────────╯",
+            "type": "custom"
+        }
+    ]
+}
