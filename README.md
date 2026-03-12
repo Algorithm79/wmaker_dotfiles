@@ -1,5 +1,5 @@
 # wmaker_dotfiles
-Configurationsfiles for WindowMaker
+Configurationsfiles for WindowMaker with TokyoNight Dark Theme
 
 
 ![screenshot](https://raw.githubusercontent.com/Algorithm79/wmaker_dotfiles/master/wmaker.png)
