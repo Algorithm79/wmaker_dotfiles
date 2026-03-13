@@ -3,8 +3,6 @@ Configurationsfiles for WindowMaker with TokyoNight Dark Theme
 
 [![Video](https://www.youtube.com/watch?v=avqV8BLJh-k)]
 
-https://www.youtube.com/watch?v=avqV8BLJh-k
-
 
 ![screenshot](https://raw.githubusercontent.com/Algorithm79/wmaker_dotfiles/master/wmaker.png)
 
