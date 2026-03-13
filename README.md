@@ -1,7 +1,7 @@
 # wmaker_dotfiles
 Configurationsfiles for WindowMaker with TokyoNight Dark Theme
 
-[![Video Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=avqV8BLJh-k)
+[![Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=avqV8BLJh-k)
 
 ![screenshot](https://raw.githubusercontent.com/Algorithm79/wmaker_dotfiles/master/wmaker.png)
 
