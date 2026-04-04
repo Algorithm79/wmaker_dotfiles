@@ -14,4 +14,4 @@ Configurationsfiles for WindowMaker with TokyoNight Dark Theme
 - [Picom](https://github.com/yshui/picom) (Compositor) 
 - [Starship](https://starship.rs/) (Cross-Shell Prompt)
 - [Tokyo Night Gtk Theme](https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme)
-- [Conky]([https://starship.rs/](https://github.com/brndnmtthws/conky)) (Light-weight system monitor for X, Wayland, and other things, too)
+- [Conky]([https://starship.rs/](https://github.com/brndnmtthws/conky) (Light-weight system monitor for X, Wayland, and other things, too)
