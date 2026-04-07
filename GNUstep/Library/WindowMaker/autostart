@@ -14,13 +14,14 @@
 #
 # This file must be executable.
 #
-#xrandr --output DisplayPort-0 --mode 2560x1440 --rate 165
+xrandr --output DisplayPort-0 --mode 2560x1440 --rate 165
+#setxkbmap se
 picom &
 blueman-applet &
-/$HOME/GNUstep/Library/WindowMaker/./launch.sh
+~/.fehbg &
+/home/magnus/GNUstep/Library/WindowMaker/./launch.sh
 nm-applet &
 dunst &
-conky -c /$HOME/.config/conky/conkyrc &
+conky -c /home/magnus/.conky/Gotham/Gotham &
 xset m 20/10 4
-
 xset dpms 500

@@ -26,22 +26,47 @@
   ),
   (
     Shortcuts,
+    ("Play/Pause", SHORTCUT, XF86AudioPlay, EXEC, "controls.sh play_pause"),
+    ("Next Song", SHORTCUT, XF86AudioNext, EXEC, "controls.sh next_track"),
+    (
+      "Previous Song",
+      SHORTCUT,
+      XF86AudioPrev,
+      EXEC,
+      "controls.sh prev_track"
+    ),
     (
       "Volume Up",
       SHORTCUT,
       XF86AudioRaiseVolume,
       EXEC,
-      "volumecontrol.sh i"
+      "controls.sh volume_up"
     ),
     (
       "Volume Down",
       SHORTCUT,
       XF86AudioLowerVolume,
       EXEC,
-      "volumecontrol.sh d"
+      "controls.sh volume_down"
     ),
-    (Mute, SHORTCUT, XF86AudioMute, EXEC, "volumecontrol.sh m"),
+    (
+      "Brightness Up",
+      SHORTCUT,
+      XF86MonBrightnessUp,
+      EXEC,
+      "controls.sh brightness_up"
+    ),
+    (
+      "Brightness Down",
+      SHORTCUT,
+      XF86MonBrightnessDown,
+      EXEC,
+      "controls.sh brightness_down"
+    ),
+    (Mute, SHORTCUT, XF86AudioMute, EXEC, "controls.sh volume_mute"),
     (Rofi, SHORTCUT, "Mod4+z", EXEC, "rofi -show drun"),
+    ("Change Wallpaper", SHORTCUT, "Mod4+w", EXEC, wallpaper.sh),
+    ("File Browser", SHORTCUT, "Mod4+f", EXEC, "rofi -show filebrowser"),
     ("Window Switch", SHORTCUT, "Mod4+Tab", EXEC, "rofi -show window"),
     (
       "Lock Screen",

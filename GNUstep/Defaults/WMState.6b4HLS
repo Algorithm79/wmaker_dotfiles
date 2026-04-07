@@ -24,18 +24,18 @@
       },
       {
         Forced = No;
-        Name = groupLeader.WPrefs;
-        DropCommand = "WPrefs %d";
+        Name = firefox.Firefox;
+        DropCommand = "firefox %d";
         BuggyApplication = No;
         AutoLaunch = No;
-        Position = "0,3";
+        Position = "0,1";
         Lock = No;
-        PasteCommand = "WPrefs %s";
-        Command = WPrefs;
+        PasteCommand = "firefox %s";
+        Command = firefox;
       },
       {
         Forced = No;
-        Name = xterm.XTerm;
+        Name = kgx.kgx;
         DropCommand = "kitty %d";
         BuggyApplication = No;
         AutoLaunch = No;
@@ -46,40 +46,29 @@
       },
       {
         Forced = No;
-        Name = wmclock.WMClock;
-        DropCommand = "wmclock %d";
+        Name = "xfce4-taskmanager.Xfce4-taskmanager";
+        DropCommand = "xfce4-taskmanager %d";
         BuggyApplication = No;
-        AutoLaunch = Yes;
-        Position = "0,1";
-        Lock = No;
-        PasteCommand = "wmclock %s";
-        Command = wmclock;
-      },
-      {
-        Forced = No;
-        Name = wmcore.wmcore;
-        DropCommand = "wmcore %d";
-        BuggyApplication = No;
-        AutoLaunch = Yes;
+        AutoLaunch = No;
         Position = "0,4";
         Lock = No;
-        PasteCommand = "wmcore %s";
-        Command = wmcore;
+        PasteCommand = "xfce4-taskmanager %s";
+        Command = "xfce4-taskmanager";
       },
       {
         Forced = No;
-        Name = wmshutdown.Wmshutdown;
-        DropCommand = "wmshutdown %d";
+        Name = "gcr-prompter.Gcr-prompter";
+        DropCommand = "spotify %d";
         BuggyApplication = No;
-        AutoLaunch = Yes;
-        Position = "0,6";
+        AutoLaunch = No;
+        Position = "0,3";
         Lock = No;
-        PasteCommand = "wmshutdown %s";
-        Command = wmshutdown;
+        PasteCommand = "spotify %s";
+        Command = spotify;
       }
     );
     Lowered = Yes;
-    Position = "2496,0";
+    Position = "0,0";
     Applications1440 = (
       {
         Forced = No;
@@ -103,18 +92,18 @@
       },
       {
         Forced = No;
-        Name = groupLeader.WPrefs;
-        DropCommand = "WPrefs %d";
+        Name = firefox.Firefox;
+        DropCommand = "firefox %d";
         BuggyApplication = No;
         AutoLaunch = No;
-        Position = "0,3";
+        Position = "0,1";
         Lock = No;
-        PasteCommand = "WPrefs %s";
-        Command = WPrefs;
+        PasteCommand = "firefox %s";
+        Command = firefox;
       },
       {
         Forced = No;
-        Name = xterm.XTerm;
+        Name = kgx.kgx;
         DropCommand = "kitty %d";
         BuggyApplication = No;
         AutoLaunch = No;
@@ -125,36 +114,25 @@
       },
       {
         Forced = No;
-        Name = wmclock.WMClock;
-        DropCommand = "wmclock %d";
+        Name = "xfce4-taskmanager.Xfce4-taskmanager";
+        DropCommand = "xfce4-taskmanager %d";
         BuggyApplication = No;
-        AutoLaunch = Yes;
-        Position = "0,1";
-        Lock = No;
-        PasteCommand = "wmclock %s";
-        Command = wmclock;
-      },
-      {
-        Forced = No;
-        Name = wmcore.wmcore;
-        DropCommand = "wmcore %d";
-        BuggyApplication = No;
-        AutoLaunch = Yes;
+        AutoLaunch = No;
         Position = "0,4";
         Lock = No;
-        PasteCommand = "wmcore %s";
-        Command = wmcore;
+        PasteCommand = "xfce4-taskmanager %s";
+        Command = "xfce4-taskmanager";
       },
       {
         Forced = No;
-        Name = wmshutdown.Wmshutdown;
-        DropCommand = "wmshutdown %d";
+        Name = "gcr-prompter.Gcr-prompter";
+        DropCommand = "spotify %d";
         BuggyApplication = No;
-        AutoLaunch = Yes;
-        Position = "0,6";
+        AutoLaunch = No;
+        Position = "0,3";
         Lock = No;
-        PasteCommand = "wmshutdown %s";
-        Command = wmshutdown;
+        PasteCommand = "spotify %s";
+        Command = spotify;
       }
     );
   };
@@ -163,12 +141,9 @@
     Name = Logo.WMClip;
     BuggyApplication = No;
     AutoLaunch = No;
-    Position = "0,0";
+    Position = "2496,0";
     Lock = No;
     Command = "-";
-  };
-  Menus = {
-    "\\Arch Linux" = ("1599,173");
   };
   Drawers = ();
   Workspaces = (
@@ -215,17 +190,6 @@
         Lowered = Yes;
       };
       Name = "Workspace 4";
-    },
-    {
-      Clip = {
-        AutoRaiseLower = No;
-        AutoCollapse = No;
-        Applications = ();
-        Collapsed = No;
-        AutoAttractIcons = No;
-        Lowered = Yes;
-      };
-      Name = "Workspace 5";
     }
   );
 }

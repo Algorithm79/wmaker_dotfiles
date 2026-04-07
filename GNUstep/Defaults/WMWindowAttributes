@@ -3,7 +3,7 @@
     Icon = pcmanfm.Pcmanfm.xpm;
   };
   firefox.Firefox = {
-    Icon = firefox.Firefox.xpm;
+    Icon = firefox.png;
   };
   kgx.kgx = {
     Icon = terminal.svg;
@@ -11,13 +11,28 @@
   default.default = {
     Icon = default.default.xpm;
   };
+  "nm-applet.Nm-applet" = {
+    Icon = "nm-applet.Nm-applet.xpm";
+  };
   "xfce4-taskmanager.Xfce4-taskmanager" = {
     Icon = "xfce4-taskmanager.Xfce4-taskmanager.xpm";
+  };
+  xterm.XTerm = {
+    Icon = GNUterm.tiff;
+  };
+  "nwg-look.Nwg-look" = {
+    Icon = baloo.png;
+  };
+  galculator.Galculator = {
+    Icon = GNUterm.tiff;
   };
   "gcr-prompter.Gcr-prompter" = {
     Icon = "spotify-client.svg";
   };
   groupLeader.WPrefs = {
     Icon = groupLeader.WPrefs.xpm;
+  };
+  wmcpumon.wmcpumon = {
+    Icon = wmcpumon.wmcpumon.xpm;
   };
 }

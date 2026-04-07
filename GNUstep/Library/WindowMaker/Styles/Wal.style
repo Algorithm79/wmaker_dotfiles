@@ -1,0 +1,30 @@
+{
+  WindowTitleFont = "CaskaydiaCove Nerd Font:bold:pixelsize=12";
+  MenuTitleFont = "CaskaydiaCove Nerd Font:bold:pixelsize=12";
+  MenuTextFont = "CaskaydiaCove Nerd Font:pixelsize=12";
+  IconTitleFont = "CaskaydiaCove Nerd Font:pixelsize=9";
+  ClipTitleFont = "CaskaydiaCove Nerd Font:bold:pixelsize=12";
+  LargeDisplayFont = "CaskaydiaCove Nerd Font:pixelsize=24";
+  TitleJustify = left;
+  HighlightColor = "#120e21";
+  HighlightTextColor = "#B37386";
+  ClipTitleColor = "#120e21";
+  CClipTitleColor = gray20;
+  FTitleColor = "#120e21";
+  PTitleColor = "#c3c2c7";
+  UTitleColor = "#c3c2c7";
+  FTitleBack = (solid, "#FD82BC");
+  PTitleBack = (solid, "#CCA2AB");
+  UTitleBack = (solid, "#CCA2AB");
+  ResizebarBack = (solid, "#CCA2AB");
+  MenuTitleColor = "#120e21";
+  MenuTextColor = "#120e21";
+  MenuDisabledColor = gray40;
+  MenuTitleBack = (solid, "#FD82BC");
+  MenuTextBack = (solid, "#CCA2AB");
+  IconBack = (solid, "#FD82BC");
+  IconTitleColor = "#B37386";
+  IconTitleBack = "#120e21";
+  MenuStyle = flat;
+}
+

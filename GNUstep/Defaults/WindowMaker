@@ -1,44 +1,9 @@
 {
+  FTitleColor = "#120e21";
   FrameBorderColor = "#1a1b26";
-  FTitleColor = "#afb8c5";
-  ClipTitleFont = "CaskaydiaCove Nerd Font:slant=0:weight=80:width=100:pixelsize=15";
-  MoveToWorkspace7Key = "Shift+Mod4+7";
-  CenterKey = None;
-  MoveDisplay = none;
-  IconTitleColor = "#afb8c5";
-  MoveToWorkspace2Key = "Shift+Mod4+2";
-  MenuTitleFont = "CaskaydiaCove Nerd Font:slant=0:weight=80:width=100:pixelsize=15";
-  MoveTo6to12Head = None;
-  DbClickFullScreen = NO;
-  FrameFocusedBorderColor = "#1a1b26";
-  MoveToWorkspace8Key = "Shift+Mod4+8";
-  ResizebarBack = (solid, "#1a1b26");
-  CloseRootMenuByLeftOrRightMouseClick = NO;
-  FrameSelectedBorderColor = "#cc575d";
-  HotCornerDelay = 250;
-  AntialiasedText = YES;
-  MoveToWorkspace5Key = "Shift+Mod4+5";
-  MenuTextFont = "CaskaydiaCove Nerd Font:slant=0:weight=80:width=100:pixelsize=15";
-  MenuTitleBack = (solid, "#2f343f");
-  HighlightColor = "#5294e2";
-  MoveToWorkspace3Key = "Shift+Mod4+3";
-  CClipTitleColor = "#616161";
-  MenuStyle = flat;
-  IconPath = (
-    "/home/magnus/GNUstep/Library/Icons",
-    "/home/magnus/GNUstep/Library/WindowMaker/Pixmaps",
-    "/home/magnus/GNUstep/Library/WindowMaker/CachedPixmaps",
-    "~/pixmaps",
-    "/usr/share/WindowMaker/Icons",
-    "/usr/share/WindowMaker/Pixmaps",
-    "/usr/share/pixmaps",
-    "/usr/share/icons/Tela-circle-pink-dark/scalable/apps"
-  );
-  PTitleBack = (solid, "#f7768e");
-  UTitleBack = (solid, "#1a1b26");
-  MenuDisabledColor = "#a9acb2";
-  IconTitleBack = "#1a1b26";
-  HotCornerEdge = 2;
+  DontLinkWorkspaces = NO;
+  MenuDisabledColor = gray40;
+  IconTitleBack = "#120e21";
   PixmapPath = (
     "/home/magnus/GNUstep/Library/WindowMaker/Pixmaps",
     "/home/magnus/GNUstep/Library/WindowMaker/Backgrounds",
@@ -48,44 +13,88 @@
     "/usr/share/WindowMaker/Backgrounds",
     "/usr/share/pixmaps"
   );
+  HotCornerEdge = 2;
   MoveToWorkspace9Key = "Shift+Mod4+9";
-  FTitleBack = (solid, "#1a1b26");
-  IconTitleFont = "CaskaydiaCove Nerd Font:slant=0:weight=80:width=100:pixelsize=15";
-  LargeDisplayFont = "CaskaydiaCove Nerd Font:slant=0:weight=200:width=100:pixelsize=64";
-  MenuTitleColor = "#afb8c5";
+  FTitleBack = (solid, "#FD82BC");
+  ToggleKbdModeKey = None;
+  ClipTitleFont = "CaskaydiaCove Nerd Font:bold:pixelsize=12";
+  ShadeKey = "Mod4+Up";
+  IconTitleFont = "CaskaydiaCove Nerd Font:pixelsize=9";
+  MoveToWorkspace7Key = "Shift+Mod4+7";
+  MenuTextBack = (solid, "#CCA2AB");
+  LargeDisplayFont = "CaskaydiaCove Nerd Font:pixelsize=24";
+  WindowPlacement = center;
+  HotCornerDelay = 250;
+  CycleWorkspaces = YES;
+  CenterKey = None;
+  MoveDisplay = none;
+  TitleJustify = left;
+  IconTitleColor = "#B37386";
+  MenuTextColor = "#120e21";
+  MoveToWorkspace2Key = "Shift+Mod4+2";
+  IconBack = (solid, "#FD82BC");
+  MenuTitleColor = "#120e21";
+  AntialiasedText = YES;
+  MenuTitleFont = "CaskaydiaCove Nerd Font:bold:pixelsize=12";
+  MoveToWorkspace5Key = "Shift+Mod4+5";
   HotCorners = NO;
+  MoveTo6to12Head = None;
   SmoothWorkspaceBack = YES;
-  WorkspaceBack = (fpixmap, "wallhaven-zpqp6g.jpg", "#000000");
-  HighlightTextColor = "#fbfcfc";
+  DbClickFullScreen = NO;
+  MenuTextFont = "CaskaydiaCove Nerd Font:pixelsize=12";
+  WorkspaceBack = (
+    fpixmap,
+    "~/GNUstep/Library/WindowMaker/Themes/TokyoNight Dark.themed/wallhaven-zpqp6g.jpg",
+    "#424959"
+  );
+  HighlightTextColor = "#B37386";
+  AdvanceToNewWorkspace = YES;
+  MenuTitleBack = (solid, "#FD82BC");
   EnforceIconMargin = NO;
-  ClipTitleColor = "#afb8c5";
+  ClipTitleColor = "#120e21";
   MoveTo12to6Head = None;
   HotCornerActions = (None, None, None, None);
-  WindowTitleFont = "CaskaydiaCove Nerd Font:slant=0:weight=80:width=100:pixelsize=15";
+  CloseKey = "Mod4+Q";
+  HighlightColor = "#120e21";
+  FrameFocusedBorderColor = "#1a1b26";
+  WindowTitleFont = "CaskaydiaCove Nerd Font:bold:pixelsize=12";
+  MoveToWorkspace8Key = "Shift+Mod4+8";
   Workspace8Key = "Mod4+8";
   Workspace9Key = "Mod4+9";
+  MoveToWorkspace3Key = "Shift+Mod4+3";
+  Workspace10Key = "Mod4+0";
+  CClipTitleColor = gray20;
+  ResizebarBack = (solid, "#CCA2AB");
+  MenuStyle = flat;
   MoveToWorkspace6Key = "Shift+Mod4+6";
+  IconPath = (
+    "/home/magnus/GNUstep/Library/Icons",
+    "/home/magnus/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/magnus/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "~/pixmaps",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/pixmaps",
+    "/usr/share/icons/Tela-circle-pink-dark/scalable/apps",
+    "/home/magnus/.icons/GNUstep/apps/48"
+  );
   Workspace4Key = "Mod4+4";
   MoveToWorkspace10Key = "Shift+Mod4+0";
-  KbdModeLock = NO;
   Workspace5Key = "Mod4+5";
+  KbdModeLock = NO;
   Workspace6Key = "Mod4+6";
+  PTitleBack = (solid, "#CCA2AB");
   Workspace7Key = "Mod4+7";
+  UTitleColor = "#c3c2c7";
+  UTitleBack = (solid, "#CCA2AB");
+  PTitleColor = "#c3c2c7";
+  CloseRootMenuByLeftOrRightMouseClick = NO;
   Workspace1Key = "Mod4+1";
-  Workspace2Key = "Mod4+2";
-  Workspace3Key = "Mod4+3";
-  MoveToWorkspace1Key = "Shift+Mod4+1";
-  ShowClipTitle = NO;
-  ToggleKbdModeKey = None;
-  MenuTextBack = (solid, "#1a1b26");
-  WindowPlacement = center;
-  TitleJustify = left;
-  MenuTextColor = "#5c616c";
-  IconBack = (dgradient, "#0b0b10", "#292e38");
-  CloseKey = "Mod4+Q";
-  Workspace10Key = "Mod4+0";
-  UTitleColor = "#808791";
-  PTitleColor = "#afb8c5";
   ResizeDisplay = none;
+  Workspace2Key = "Mod4+2";
+  MoveToWorkspace1Key = "Shift+Mod4+1";
+  Workspace3Key = "Mod4+3";
+  ShowClipTitle = NO;
   MoveToWorkspace4Key = "Shift+Mod4+4";
+  FrameSelectedBorderColor = "#cc575d";
 }
