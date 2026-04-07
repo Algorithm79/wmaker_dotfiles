@@ -15,7 +15,7 @@ fontawesome 5 free
 
 
 
-[![Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=cNtUFIO9eZo)
+[![Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=tVS6Gfw5UU8)
 
 ![screenshot](https://raw.githubusercontent.com/Algorithm79/wmaker_dotfiles/master/wmaker.png)
 
